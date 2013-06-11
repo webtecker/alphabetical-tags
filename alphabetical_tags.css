@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+.tabnav{
+	margin:0px !important;
+	padding:0px !important;
+	height:28px;
+}
+.tabnav li {  
+	float:left;
+	list-style: none;
+
+}  
+  
+.tabnav li a {  
+	text-decoration: none;  
+	text-transform: uppercase;  
+	color: #222; 
+	display:block;
+	font-weight: bold;  
+	padding: 4px 4px;  
+	outline: none; 
+	border: #E8E8E8 solid 1px;
+	border-bottom: 0px;
+	height: 18px;
+	background-color: #EFEFEF;
+	color: #777;
+	margin-right: 2px;
+	outline: 0;
+}  
+  
+.tabnav li a:hover, .tabnav li a:active, .tabnav li.ui-tabs-selected a {  
+	background: #dedbd1;  
+	color: #222;  
+	text-decoration: none;  
+}  
+  
+.tabdiv {  
+	background: #fff;  
+	border: 1px solid #dedbd1;  
+	padding: 5px;  
+}  
+.tabdiv h4{
+	text-transform: uppercase; 
+	margin: 0 0 10px 0;
+}
+
+.tabdiv li {  
+	margin-left: 10px;  
+}  
+  
+.ui-tabs-hide {  
+	display: none;  
+}  
